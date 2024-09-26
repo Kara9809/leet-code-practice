@@ -1,7 +1,15 @@
-package org.example;
+package org.exercises.main;
+
+import org.exercises.TwoSumEx1;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        TwoSumEx1 solution1 = new TwoSumEx1();
+        int[] nums = {2,7,11,15};
+        int target = 18;
+        int[] result = solution1.twoSum(nums, target);
+        System.out.println("Indices of numbers that sum to target: "+ Arrays.toString(result));
     }
 }

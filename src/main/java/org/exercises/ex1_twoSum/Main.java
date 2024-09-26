@@ -1,6 +1,4 @@
-package org.exercises.main;
-
-import org.exercises.TwoSumEx1;
+package org.exercises.ex1_twoSum;
 
 import java.util.Arrays;
 

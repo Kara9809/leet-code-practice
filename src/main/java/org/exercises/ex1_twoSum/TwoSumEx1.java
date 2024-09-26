@@ -1,4 +1,4 @@
-package org.exercises;
+package org.exercises.ex1_twoSum;
 
 import java.util.HashMap;
 
